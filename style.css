@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --font: 'Open Sans';
+  --gray: #f4f7fe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--gray);
+}
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content h1 {
+  margin-bottom: 5px;
+  font-size: 29px;
+  letter-spacing: 1px;
+}
+
+.content p {
+  font-size: 14px;
+  width: 90%;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+}
+
+.box .image-box {
+  position: relative;
+  width: 100%;
+  min-height: 330px;
+  background: var(--gray);
+  overflow: hidden;
+}
+
+.box .image-box .image {
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.box .box-content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.box .box-content span,
+.box .box-content b {
+  font-size: 13px;
+}
+
+.box .box-content b {
+  color: royalblue;
+}
+
+.button-wrapper #upload-button { display: none; }
+
+.button-wrapper label {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  background: royalblue;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
