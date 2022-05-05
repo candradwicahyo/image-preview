@@ -1,6 +1,6 @@
 ## Image Preview
 
-sebuah program bernama "image preview" dimana program ini bertujuan untuk menampilkan sebuah gambar beserta nama dan filenya
+sebuah program bernama "image preview" dimana program ini bertujuan untuk menampilkan sebuah gambar beserta nama dan tipe filenya
 
 ### dibuat dengan berikut
 
