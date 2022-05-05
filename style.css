@@ -23,6 +23,7 @@ body {
 .container {
   position: relative;
   width: 300px;
+  margin: 20px 0;
 }
 
 .content {
